@@ -35,8 +35,9 @@
         <div class="col-md-6">
           <div class="box">
             <h3 class="heading">Get in touch</h3>
-            <form class="mb-5" method="post" id="contactForm" name="contactForm">
-              <div class="row">
+            <form class="mb-5"
+              action="https://formspree.io/f/xojnnlqo"
+              method="POST">
                 
                 <div class="col-md-6 form-group">
                   <label for="name" class="col-form-label">Name *</label>
@@ -50,7 +51,7 @@
               <div class="row">
                 <div class="col-md-12 form-group">
                   <label for="email" class="col-form-label">Email *</label>
-                  <input type="text" class="form-control" name="email" id="email" placeholder="Your email address">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your email address">
                 </div>
               </div>
 
@@ -86,7 +87,7 @@
                   <span class="submitting"></span>
                 </div>
               </div>
-            </form action="https://formspree.io/f/xojnnlqo" method="post">
+            </form>
 
             <div id="form-message-warning mt-4"></div> 
             <div id="form-message-success">
@@ -107,5 +108,6 @@
 
   </body>
 </html>
+
 
 
