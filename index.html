@@ -15,7 +15,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Ash Hem</title>
+    <title>ASH HEM</title>
   </head>
   <body>
   
@@ -35,7 +35,8 @@
         <div class="col-md-6">
           <div class="box">
             <h3 class="heading">Get in touch</h3>
-            <form class="mb-5" action="https://formspree.io/f/xojnnlqo" method="POST">
+            <form class="mb-5" method="post" id="contactForm" name="contactForm">
+              <div class="row">
                 
                 <div class="col-md-6 form-group">
                   <label for="name" class="col-form-label">Name *</label>
@@ -43,13 +44,13 @@
                 </div>
                 <div class="col-md-6 form-group">
                   <label for="name" class="col-form-label">Organisation</label>
-                  <input type="text" class="form-control" name="organization" id="organization" placeholder="Your organisation (if applicable)">
+                  <input type="text" class="form-control" name="organisation" id="organisation" placeholder="Your organisation">
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12 form-group">
                   <label for="email" class="col-form-label">Email *</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your email address">
+                  <input type="text" class="form-control" name="email" id="email" placeholder="Your email address">
                 </div>
               </div>
 
@@ -61,8 +62,8 @@
               </div>
               <div class="row mb-3">
                 <div class="col-md-6 form-group">
-                  <label for="Type of service" class="col-form-label">Type of service</label>
-                  <select class="custom-select" id="Type of service" name="Type of service">
+                  <label for="budget" class="col-form-label">Budget</label>
+                  <select class="custom-select" id="budget" name="budget">
     <option selected>Choose...</option>
     <option value="$1000 below">< $1,000</option>
     <option value="$2,000 - $5,000">$2,000 - $5,000</option>
@@ -106,7 +107,3 @@
 
   </body>
 </html>
-
-
-
-
