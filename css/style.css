@@ -124,10 +124,12 @@ label.error {
   border-color: #1f1b20 !important;
 }
 
-a {
+.content a,
+.col-md-5 a {
   color: ##6E5099 !important;
 }
 
-a:hover {
+.content a:hover,
+.col-md-5 a:hover {
   color: #000 !important;
 }
