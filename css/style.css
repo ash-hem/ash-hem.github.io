@@ -123,3 +123,11 @@ label.error {
   background-color: #1f1b20 !important;
   border-color: #1f1b20 !important;
 }
+
+a {
+  color: ##6E5099 !important;
+}
+
+a:hover {
+  color: #000 !important;
+}
