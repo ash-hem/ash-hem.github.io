@@ -111,7 +111,6 @@ label.error {
   font-size: 12px;
   color: #000; }
 
-/* Override Bootstrap primary button */
 .btn-primary {
   background-color: #2D282E !important;
   border-color: #2D282E !important;
@@ -122,4 +121,12 @@ label.error {
 .btn-primary:active {
   background-color: #1f1b20 !important;
   border-color: #1f1b20 !important;
+}
+
+.text-link {
+  color: ##6E5099;
+}
+
+.text-link:hover {
+  color: #000;
 }
