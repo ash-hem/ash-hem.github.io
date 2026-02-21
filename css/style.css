@@ -123,10 +123,14 @@ label.error {
   border-color: #1f1b20 !important;
 }
 
+.content p a,
+.col-md-5 a,
 .text-link {
-  color: ##6E5099;
+  color: #6E5099 !important;
 }
 
+.content p a:hover,
+.col-md-5 a:hover,
 .text-link:hover {
-  color: #000;
+  color: #000 !important;
 }
