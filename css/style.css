@@ -110,3 +110,13 @@ label.error {
   font-weight: bold;
   font-size: 12px;
   color: #000; }
+
+.btn-primary {
+  background-color: ##5B4164;   /* your dark tone */
+  border-color: ##5B4164;
+}
+
+.btn-primary:hover {
+  background-color: ##5B4164;
+  border-color: ##5B4164;
+}
